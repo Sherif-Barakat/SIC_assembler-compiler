@@ -1,0 +1,20 @@
+PROGRAM START 0000
+       LDA y
+       STA x
+       LDA 4
+       STA y
+       LDA x
+       MUL y
+       STA x
+       LDA y
+       COMP 6
+       JGT LOOP3
+LOOP3 LDA x
+       SUB 9
+       RSUB       
+4 WORD 4
+6 WORD 6
+9 WORD 9
+x RESW 1
+y RESW 1
+       END PROGRAM

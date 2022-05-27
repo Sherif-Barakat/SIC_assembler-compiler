@@ -1,0 +1,7 @@
+PROGRAM 12b6
+LOOP3 12d4
+4 12dd
+6 12e0
+9 12e3
+x 12e6
+y 12e9

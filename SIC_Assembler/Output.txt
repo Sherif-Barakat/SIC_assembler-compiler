@@ -1,0 +1,21 @@
+Line  Location   Source statements     Object code
+1     12b6      PROGRAM START 12b6      
+2     12b6             LDA   y         0012e9
+3     12b9             STA   x         0C12e6
+4     12bc             LDA   4         0012dd
+5     12bf             STA   y         0C12e9
+6     12c2             LDA   x         0012e6
+7     12c5             MUL   y         2012e9
+8     12c8             STA   x         0C12e6
+9     12cb             LDA   y         0012e9
+10    12ce             COMP  6         2812e0
+11    12d1             JGT   LOOP3     3412d4
+12    12d4      LOOP3  LDA   x         0012e6
+13    12d7             SUB   9         1C12e3
+14    12da             RSUB            4C0000
+15    12dd      4      WORD  4         4
+16    12e0      6      WORD  6         6
+17    12e3      9      WORD  9         9
+18    12e6      x      RESW  1         
+19    12e9      y      RESW  1         
+20                     END                   
